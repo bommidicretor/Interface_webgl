@@ -1,0 +1,14 @@
+UIThreadException
+
+Oops, gInk crashed! Please include the following information if you plan to contact the developers (a copy of the following information is stored in crash.txt in the application folder):
+
+Cannot access a disposed object.
+Object name: 'Microsoft.Ink.InkOverlay'.
+
+Stack Trace:
+   at Microsoft.Ink.InkOverlay.get_CollectingInk()
+   at gInk.FormDisplay.timer1_Tick(Object sender, EventArgs e) in E:\Downloads\To del\gInk-master\src\FormDisplay.cs:line 506
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
